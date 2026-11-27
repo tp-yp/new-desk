@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Win32 interop shared by the shell and the watchdog. No admin rights, no system files, no registry writes. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewDesk.Core\NewDesk.Core.csproj" />
+  </ItemGroup>
+</Project>

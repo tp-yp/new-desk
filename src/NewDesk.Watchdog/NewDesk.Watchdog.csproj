@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Tiny, UI-less guardian process. WinExe so no console window ever flashes. -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewDesk.Platform\NewDesk.Platform.csproj" />
+  </ItemGroup>
+</Project>
